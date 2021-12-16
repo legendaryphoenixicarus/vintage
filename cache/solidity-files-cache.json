@@ -43,8 +43,8 @@
       ]
     },
     "E:\\trial-course\\Blockchain\\Token\\vintage-presale\\contracts\\VintageToken.sol": {
-      "lastModificationDate": 1639662503694,
-      "contentHash": "e1102c2ae93c2c80ee719b33113830da",
+      "lastModificationDate": 1639682904887,
+      "contentHash": "81a33cea9d56af03626083e65f63a374",
       "sourceName": "contracts/VintageToken.sol",
       "solcConfig": {
         "version": "0.7.5",

@@ -10,8 +10,8 @@ import axios from "axios";
 import { vintagetokenaddress, busdaddress } from '../config';
 import VintageToken from '../artifacts/contracts/VintageToken.sol/VintageToken.json'
 import BEP20Token from '../artifacts/contracts/BEP20Token.sol/BEP20Token.json'
-import { whitelists } from '../whitelist'
-// import BUSD from '../BUSD.json'
+// import { whitelists } from '../whitelist'
+import BUSD from '../BUSD.json'
 
 export default function Presale() {
     const [minting, setMinting] = useState(false);
@@ -57,7 +57,7 @@ export default function Presale() {
         console.log(priceApprove);
         // console.log(BUSD)
         // const contractBUSD = new ethers.Contract(busdaddress, BUSD, signer)
-        const contractBUSD = new ethers.Contract(busdaddress, BEP20Token.abi, signer);
+        const contractBUSD = new ethers.Contract(busdaddress, BUSD.abi, signer);
         await contractBUSD.approve(vintagetokenaddress, priceApprove)
         
         try {

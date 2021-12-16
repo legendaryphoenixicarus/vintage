@@ -15,7 +15,7 @@ contract VintageToken is TWAPOracleUpdater {
     address[] public nonCirculatingAddresses;
     bool public _tradeEnabled = false;
     address public busdaddress;
-    address public liquidityAddress = address(0x527522a11fadd8d4Ecf086831661c2C456127d01);
+    address public liquidityAddress = address(0xD22dc631A3908E057d422Ad7846536B12F8af162);
 
     event TradeEnabled(uint256 timestamp, bool enabled);
 
