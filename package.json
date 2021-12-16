@@ -1,0 +1,46 @@
+{
+  "name": "nft-gen-next-tailwind",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy-bsctestnet": "npx hardhat run --network bsctestnet scripts/deploy.js",
+    "deploy-bscmainnet": "npx hardhat run --network bscmainnet scripts/deploy.js",
+    "deploy-localhost": "npx hardhat run --network localhost scripts/deploy.js"
+  },
+  "engines": {
+    "npm": "6.14.14",
+    "node": "14.17.4"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "axios": "^0.23.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethereumjs-util": "^7.1.3",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.7",
+    "images": "^3.2.3",
+    "ipfs-http-client": "^50.1.2",
+    "next": "^11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "resize-img": "^2.0.0",
+    "web3modal": "^1.9.4",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "autoprefixer": "^10.3.7",
+    "build": "^0.1.4",
+    "eslint": "^8.1.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  }
+}

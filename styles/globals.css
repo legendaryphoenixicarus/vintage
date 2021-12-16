@@ -1,0 +1,247 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* @tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+.loader {
+    border-top-color: #3498db;
+    -webkit-animation: spinner 1.5s linear infinite;
+    animation: spinner 1.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spinner {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */
+
+  .lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+  .loader {
+    /* margin: auto; */
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    animation: spin 2s linear infinite;
+  }
+  .center-my{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .main {
+    background-image: url("../public/background.png");
+    background-repeat: round;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .inf-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .presale-title {
+    font-size: 50px;
+    margin-bottom: 32px;
+    color: white;
+  }
+
+  .presale-form {
+    background-color:#684295;
+  }
+
+  .inf-price {
+    text-align: center;
+    color: black;
+    font-size: 42px;
+    font-weight: 800;
+  }
+
+  .btn-buy-inf {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 4px 32px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .presale-row{
+    margin-left: -36px;
+    margin-right: -36px;
+    margin-top: -65px;
+  }
+
+  .presale-img {
+    width: 60%;
+  }
+
+  .presale-input {
+    color: white !important;
+    font-size: 30px !important;
+    text-align: center;
+  }
+
+  .presale-amount-text {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .presale-btn-buy-box {
+    margin-top:-20px;
+  }
+
+  .nav-tab-common {
+    justify-content: space-evenly;
+  }
+
+  .apy-rebase-common {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .dashboard-common {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    margin-top:15px;
+    
+  }
+
+  .stake-bond-info {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .stake-bond-input {
+    color: white !important;
+    font-size: 30px !important;
+    
+    background-color: black;
+    margin-right: 20px;
+  }
+
+  .stake-bond-amount-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stake-bond-btn-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .stake-bond-form {
+    background-color:#684295;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .btn-stake-bond {
+    width: 35%;
+  }
+
+  .unstake-form {
+    background-color:#f76997;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .redeem-form {
+    background-color:#68c6ae;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+  .netstorm-tab li a.active h5 {
+      color: var(--primary-color);
+  }
+
+  .navbar-custom {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mytokens {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dashboard-wallet {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 767px) {
+    body header .navbar-expand .navbar-nav.action .btn {
+      padding: 5px 10px;
+      font-size: 14px;
+      }
+  }
+
+
+ 

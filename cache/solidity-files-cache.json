@@ -1,0 +1,528 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\BEP20Token.sol": {
+      "lastModificationDate": 1639652809021,
+      "contentHash": "84c4a13b9581de6b44cbed382630d46b",
+      "sourceName": "contracts/BEP20Token.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "BEP20Token",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\VintageToken.sol": {
+      "lastModificationDate": 1639652561571,
+      "contentHash": "eaa7dd6f4ab2ef7b5b9dc92c7a61452a",
+      "sourceName": "contracts/VintageToken.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TWAPOracleUpdater.sol",
+        "hardhat/console.sol",
+        "./IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "VintageToken"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\TWAPOracleUpdater.sol": {
+      "lastModificationDate": 1639647099896,
+      "contentHash": "b335da29e8222b6694aabe019664db07",
+      "sourceName": "contracts/TWAPOracleUpdater.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20Permit.sol",
+        "./ERC20.sol",
+        "./Ownable.sol",
+        "./EnumerableSet.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "ITWAPOracle",
+        "MinterOwned",
+        "TWAPOracleUpdater"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\IBEP20.sol": {
+      "lastModificationDate": 1639642708881,
+      "contentHash": "a9cfde95619e8dab16199e96b6b12fa5",
+      "sourceName": "contracts/IBEP20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "IBEP20"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\ERC20Permit.sol": {
+      "lastModificationDate": 1639647087594,
+      "contentHash": "8ac9065e0872844fda98688af9dcc95f",
+      "sourceName": "contracts/ERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol",
+        "./IERC2612Permit.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "Counters",
+        "ERC20Permit"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\ERC20.sol": {
+      "lastModificationDate": 1639647653401,
+      "contentHash": "1fe3b0dc5b07d540371cf37002d3ce20",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./SafeMath.sol",
+        "./IBEP20.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\Ownable.sol": {
+      "lastModificationDate": 1639642708940,
+      "contentHash": "5f1d6fbfd61a77ffb344bd01bdc6d2ba",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\EnumerableSet.sol": {
+      "lastModificationDate": 1639642708774,
+      "contentHash": "c69215c00f3966ada6ec4478989c90de",
+      "sourceName": "contracts/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\IERC2612Permit.sol": {
+      "lastModificationDate": 1639642708935,
+      "contentHash": "7b89cd8d5f23569d37a66019efb7d999",
+      "sourceName": "contracts/IERC2612Permit.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "IERC2612Permit"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\IERC20.sol": {
+      "lastModificationDate": 1639642708923,
+      "contentHash": "e23995c5bd5726c1e2a11e1ec8547df2",
+      "sourceName": "contracts/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\SafeMath.sol": {
+      "lastModificationDate": 1639642708940,
+      "contentHash": "1f4bbbc813ef677b60dbad369045ff68",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\IOwnable.sol": {
+      "lastModificationDate": 1639642708939,
+      "contentHash": "f8a8e60a91e16e2d09513b7f23267a68",
+      "sourceName": "contracts/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\contracts\\sInfinityDAO.sol": {
+      "lastModificationDate": 1639642708941,
+      "contentHash": "3921796bc908bb1e927c228b390d54ad",
+      "sourceName": "contracts/sInfinityDAO.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol",
+        "./Ownable.sol",
+        "./ERC20.sol",
+        "./ERC20Permit.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.5"
+      ],
+      "artifacts": [
+        "sInfinityDao"
+      ]
+    },
+    "E:\\trial-course\\Blockchain\\Staking\\infdao-presale\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1639587646967,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}
