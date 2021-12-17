@@ -1,4 +1,4 @@
 
-  export const vintagetokenaddress = "0x0165878A594ca255338adfa4d48449f69242Eb8F"
-  export const busdaddress = "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707"
+  export const vintagetokenaddress = "0xF12eaF752520673D5BF66B1069baE6f8074166e5"
+  export const busdaddress = "0xe9e7cea3dedca5984780bafc599bd69add087d56"
   
